@@ -5,7 +5,7 @@ namespace yyy
     {
         static void Main()
         {
-            double n, a, r, res;
+            double n, a, res;
             res = 0;
             Console.WriteLine("введите первое число");
             a = Convert.ToDouble(Console.ReadLine());

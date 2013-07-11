@@ -18,6 +18,19 @@ namespace yyy
                case "+": return new Sum();
       
                case "-": return new Sup();
+
+               case "Sin": return new Sin();
+
+               case "Cos": return new Cos();
+
+               case "Fac":
+               case "!":
+                           return new Fac();
+
+               case "Sgr": return new Sgr();
+
+               case "%": return new Proc();
+
                default: throw new Exception("неизвестная команда");
            }
 
